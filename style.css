@@ -45,6 +45,13 @@ body {
     object-fit: cover;
     border-radius: 20%;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+}
+
+.divsıfırgörsel img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+    border-radius: 10%; 
 }
 
 .divsıfır:hover{
